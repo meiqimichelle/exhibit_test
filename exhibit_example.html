@@ -1,0 +1,72 @@
+
+<html>
+<head>
+    <title>Hierarchical Facet Test - Flickr Photos</title>
+    <link rel="exhibit/data" href="data.json" />
+    <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js"></script>
+    <style>
+        body {
+            font-family:    "Gill Sans", "Trebuchet MS", "Helvetica", "Arial", "sans serif";
+            font-size:      10pt;
+            padding:        0.5in;
+        }
+        table {
+            font-size:      100%;
+        }
+        tr, td {
+            vertical-align: top;
+        }
+        div.thumbnail-lens {
+            width:      280px;
+        }
+        div.title {
+            margin:     5px 0;
+            font-weight: bold;
+        }
+        tr.thumbnail td {
+            height:         260px;
+            vertical-align: bottom;
+        }
+        tr.details td {
+            height:         80px;
+        }
+    </style>
+</head>
+<body>
+    <div ex:role="collection" ex:itemTypes="Photo"></div>
+    
+    <h1>Hierarchical Facet Test - Flickr Photos</h1>
+    
+    <p style="border-bottom: 1px dotted #aaa; font-style: italic; color: #888;">The photos in this web page come from Flickr.</p>
+    
+    <table cellspacing="0" cellpadding="0" border="0" width="100%"><tr>
+        <td width="225" style="padding-right: 20px;">
+            <div ex:role="facet" 
+                ex:facetClass="Exhibit.HierarchicalFacet"
+                ex:expression=".subject" 
+                ex:uniformGrouping=".subtopicOf"
+                ex:scroll="false"
+                ></div>
+            <br/>
+            <div ex:role="facet" 
+                ex:expression=".format" 
+                ex:scroll="false"
+                ></div>
+        </td>
+        <td>
+            <div ex:role="view" ex:viewClass="Thumbnail" ex:showAll="true">
+                <div ex:role="lens" class="thumbnail-lens">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr class="thumbnail"><td><a ex:href-content=".url"><img ex:src-content=".image"></a></div></td></tr>
+                        <tr class="details"><td>
+                            <div class="title" ex:content=".label"></div>
+                            <div>artist: <span ex:content=".artist"></span></div>
+                            <div>subjects: <span ex:content=".subject"></span></div>
+                        </td></tr>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr></table>
+</body>
+</html>

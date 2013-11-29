@@ -1,0 +1,254 @@
+{
+    items: [
+        {   type: "ArtworkSubject", label: "nature" },
+        {   type: "ArtworkSubject", label: "landscape",             subtopicOf: "nature" },
+        {   type: "ArtworkSubject", label: "valley",                subtopicOf: "landscape" },
+        {   type: "ArtworkSubject", label: "hill",                  subtopicOf: "landscape" },
+        {   type: "ArtworkSubject", label: "seascapes and coast",   subtopicOf: "nature" },
+        
+        {   type: "ArtworkSubject", label: "people" },
+        {   type: "ArtworkSubject", label: "adults",                subtopicOf: "people" },
+        {   type: "ArtworkSubject", label: "man",                   subtopicOf: "adults" },
+        {   type: "ArtworkSubject", label: "woman",                 subtopicOf: "adults" },
+        
+        
+        /* Unclassified Nature */
+        
+        {   type:       "Photo",
+            label:      "Nature's Secret",
+            image:      "http://farm1.static.flickr.com/160/436688814_e36972e87d_m.jpg",
+            url:        "http://flickr.com/photos/cesarcabrera/436688814/",
+            artist:     "Cesar R.",
+            format:     "colors",
+            subject:    [ "nature" ]
+        },
+        {   type:       "Photo",
+            label:      "Nature drops closer",
+            image:      "http://farm2.static.flickr.com/1316/544804899_f1a7af3669_m.jpg",
+            url:        "http://flickr.com/photos/keesssss/544804899/",
+            artist:     "!.keesssss.!",
+            format:     "b&w",
+            subject:    [ "nature" ]
+        },
+        
+        /* Unclassified Landscapes */
+        
+        {   type:       "Photo",
+            label:      "Australian Landscape",
+            image:      "http://farm1.static.flickr.com/131/336098293_f14e295887_m.jpg",
+            url:        "http://flickr.com/photos/ambientlight/336098293/",
+            artist:     "ambientlight",
+            format:     "colors",
+            subject:    [ "landscape" ]
+        },
+        {   type:       "Photo",
+            label:      "Sand Landscape 2",
+            image:      "http://farm1.static.flickr.com/197/519643702_5a22ec527a_m.jpg",
+            url:        "http://flickr.com/photos/folichphoto/519643702/",
+            artist:     "Christian FrÃ¶lich",
+            format:     "colors",
+            subject:    [ "landscape", "nature" ]
+        },
+        {   type:       "Photo",
+            label:      "Mediterranean summer landscape",
+            image:      "http://farm2.static.flickr.com/1415/1434355259_edc915bd26_m.jpg",
+            url:        "http://flickr.com/photos/luislx/1434355259/",
+            artist:     "Retinol",
+            format:     "colors",
+            subject:    [ "landscape" ]
+        },
+        
+        /* Hills */
+        
+        {   type:       "Photo",
+            label:      "Storm over the Chocolate Hills",
+            image:      "http://farm1.static.flickr.com/47/149186867_0ad63fdb34_m.jpg",
+            url:        "http://flickr.com/photos/rpeg/149186867/",
+            artist:     "rpeg",
+            format:     "colors",
+            subject:    [ "hill" ]
+        },
+        {   type:       "Photo",
+            label:      "Panorama Hill",
+            image:      "http://farm3.static.flickr.com/2217/2047261298_dc2c2dcc08_m.jpg",
+            url:        "http://flickr.com/photos/csfoo/2047261298/",
+            artist:     "Chee Seong",
+            format:     "colors",
+            subject:    [ "hill", "nature", "landscape" ]
+        },
+        {   type:       "Photo",
+            label:      "Shropshire Hills",
+            image:      "http://farm2.static.flickr.com/1002/1309600995_482fc68477_m.jpg",
+            url:        "http://flickr.com/photos/steelsteve/1309600995/",
+            artist:     "Steel Steve",
+            format:     "colors",
+            subject:    [ "hill", "nature" ]
+        },
+        {   type:       "Photo",
+            label:      "Fog in the Hills",
+            image:      "http://farm1.static.flickr.com/199/507338535_d4d6416fef_m.jpg",
+            url:        "http://flickr.com/photos/64172583@N00/507338535/",
+            artist:     "BlueOakPhotos",
+            format:     "colors",
+            subject:    [ "hill", "landscape" ]
+        },
+        
+        /* Valley */
+        
+        {   type:       "Photo",
+            label:      "Inspiration Point, Yosemite Valley",
+            image:      "http://farm1.static.flickr.com/172/479655184_26ec094023_m.jpg",
+            url:        "http://flickr.com/photos/drona/479655184/",
+            artist:     "drona",
+            format:     "colors",
+            subject:    [ "valley", "landscape" ]
+        },
+        {   type:       "Photo",
+            label:      "Paradise Valley",
+            image:      "http://farm1.static.flickr.com/174/420990986_10e5c05bbf_m.jpg",
+            url:        "http://flickr.com/photos/jeffclow/420990986/",
+            artist:     "jeffclow",
+            format:     "colors",
+            subject:    [ "valley", "nature" ]
+        },
+        {   type:       "Photo",
+            label:      "Hope Valley",
+            image:      "http://farm1.static.flickr.com/40/74027798_aa36665c11_m.jpg",
+            url:        "http://flickr.com/photos/markwetters/74027798/",
+            artist:     "mrwsierra",
+            format:     "colors",
+            subject:    [ "valley" ]
+        },
+        {   type:       "Photo",
+            label:      "Death Valley Dunes 2",
+            image:      "http://farm1.static.flickr.com/221/468642820_047ca14da9_m.jpg",
+            url:        "http://flickr.com/photos/steves_reflections/468642820/",
+            artist:     "Steve's Reflections",
+            format:     "colors",
+            subject:    [ "valley" ]
+        },
+        {   type:       "Photo",
+            label:      "Death Valley Reflection",
+            image:      "http://farm1.static.flickr.com/20/73366803_565d1e889d_m.jpg",
+            url:        "http://flickr.com/photos/w9jim/73366803/",
+            artist:     "w9jim",
+            format:     "colors",
+            subject:    [ "valley", "seascapes and coast", "nature" ] // ***mixed***
+        },
+        
+        /* Seascapes and Coast */
+        
+        {   type:       "Photo",
+            label:      "Putty Beach - Central Coast, NSW, Australia",
+            image:      "http://farm1.static.flickr.com/100/290416192_7575fa54ce_m.jpg",
+            url:        "http://flickr.com/photos/bobesh14/290416192/",
+            artist:     "`Bobesh",
+            format:     "colors",
+            subject:    [ "seascapes and coast", "nature" ]
+        },
+        {   type:       "Photo",
+            label:      "U.S. Coast Guard Cutter",
+            image:      "http://farm3.static.flickr.com/2224/1942396456_8cffd3e5e5_m.jpg",
+            url:        "http://flickr.com/photos/island_life/1942396456/",
+            artist:     "Island-Life",
+            format:     "colors",
+            subject:    [ "seascapes and coast" ]
+        },
+        {   type:       "Photo",
+            label:      "Stormy Coast",
+            image:      "http://farm3.static.flickr.com/2030/1591554450_3c62fee786_m.jpg",
+            url:        "http://flickr.com/photos/orvaratli/1591554450/",
+            artist:     "orvaratli",
+            format:     "colors",
+            subject:    [ "seascapes and coast" ]
+        },
+        
+        /* Unclassified people */
+        
+        {   type:       "Photo",
+            label:      "Children's Day - II",
+            image:      "http://farm1.static.flickr.com/32/52292046_374a53c012_m.jpg",
+            url:        "http://flickr.com/photos/beija-flor/52292046/",
+            artist:     "carf",
+            format:     "colors",
+            subject:    [ "people" ]
+        },
+        
+        /* Man */
+        
+        {   type:       "Photo",
+            label:      "Sinhalese man",
+            image:      "http://farm2.static.flickr.com/1272/1135836817_761622e428_m.jpg",
+            url:        "http://flickr.com/photos/fofiko/1135836817/",
+            artist:     "fofiko",
+            format:     "colors",
+            subject:    [ "man" ]
+        },
+        {   type:       "Photo",
+            label:      "The feathered men of Cacaopera",
+            image:      "http://farm1.static.flickr.com/42/86625873_85552f1e35_m.jpg",
+            url:        "http://flickr.com/photos/hawkey/86625873/",
+            artist:     "Sean Hawkey",
+            format:     "colors",
+            subject:    [ "man", "people" ]
+        },
+        {   type:       "Photo",
+            label:      "Smoke Man",
+            image:      "http://farm2.static.flickr.com/1337/716126858_641cca53e2_m.jpg",
+            url:        "http://flickr.com/photos/vincos/716126858/",
+            artist:     "vincos",
+            format:     "b&w",
+            subject:    [ "man", "adults", "people" ]
+        },
+        
+        /* Woman */
+        
+        {   type:       "Photo",
+            label:      "old woman w cigar",
+            image:      "http://farm1.static.flickr.com/38/83596068_e92f4a4505_m.jpg",
+            url:        "http://flickr.com/photos/awfulsara/83596068/",
+            artist:     "Sara Heinrichs...",
+            format:     "b&w",
+            subject:    [ "woman", "adults", "people" ]
+        },
+        {   type:       "Photo",
+            label:      "Women of the Desert",
+            image:      "http://farm2.static.flickr.com/1129/1375184468_b013633409_m.jpg",
+            url:        "http://flickr.com/photos/jalalspages/1375184468/",
+            artist:     "jalalspages",
+            format:     "colors",
+            subject:    [ "woman", "people" ]
+        },
+        {   type:       "Photo",
+            label:      "The other woman",
+            image:      "http://farm2.static.flickr.com/1231/1279084602_1d922ef491_m.jpg",
+            url:        "http://flickr.com/photos/sblob/1279084602/",
+            artist:     "iDario!",
+            format:     "b&w",
+            subject:    [ "woman" ]
+        },
+        {   type:       "Photo",
+            label:      "women's wisdom",
+            image:      "http://farm2.static.flickr.com/1434/566477114_68d1243199_m.jpg",
+            url:        "http://flickr.com/photos/maggiesworld/566477114/",
+            artist:     "Maggie's World",
+            format:     "colors",
+            subject:    [ "woman" ]
+        },
+        
+        /* Unclassified */
+        
+        {   type:       "Photo",
+            label:      "Tea for one",
+            image:      "http://farm3.static.flickr.com/2368/2140828913_a70b0ba977_m.jpg",
+            url:        "http://flickr.com/photos/digitalgopher/2140828913/",
+            format:     "colors",
+            artist:     "digitalgopher"
+        }
+    ],
+    types: {
+        "Photo": {
+            pluralLabel: "Photos"
+        }
+    }
+}
